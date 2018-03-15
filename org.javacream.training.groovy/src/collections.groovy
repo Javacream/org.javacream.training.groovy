@@ -8,7 +8,7 @@ def app(){
 	printList(42)
 }
 
-def printList(List listToPrint){
+def printList(def listToPrint){
 	for (def i = 0; i < listToPrint.size(); i++){
 		println(listToPrint.get(i))
 	}
