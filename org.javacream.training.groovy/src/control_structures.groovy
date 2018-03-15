@@ -1,3 +1,5 @@
+import javax.swing.JOptionPane;
+
 //Kontrollstrukturen: Schleifen und Verzweigungen
 
 def n1 = 10
