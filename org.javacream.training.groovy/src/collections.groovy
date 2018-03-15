@@ -9,8 +9,12 @@ def app(){
 }
 
 def printList(def listToPrint){
-	for (def i = 0; i < listToPrint.size(); i++){
-		println(listToPrint.get(i))
+	if (listToPrint instanceof List){
+		for (def i = 0; i < listToPrint.size(); i++){
+			println(listToPrint.get(i))
+		}
+	}else{
+		println "wrong type forparameter ${listToPrint}"
 	}
 }
 

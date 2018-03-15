@@ -7,8 +7,8 @@ def app(){
 
 	printList(list)
 	printList(numbers)
-	printList("Hugo")
-	printList(42)
+//	printList("Hugo")
+//	printList(42)
 }
 
 def printList(List listToPrint){
