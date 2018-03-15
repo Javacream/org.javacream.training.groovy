@@ -42,7 +42,8 @@ number++  //number = number + 1
 
 number +=5 //number = number + 5
 
-
+//Unwichtiges: Shift-Operatoren << >> <<< >>>, Bitweises AND &, OR |
+//Exzessive mathematische Oprationen und Bildverarbeitung
 
 
 
