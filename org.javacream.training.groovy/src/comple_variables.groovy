@@ -1,23 +1,23 @@
 /*
- * [] : Das Listen-Literal, [Aufzählung von Elementen]
- * eine Liste enthält eine beliebige Anzahl von Elementen, die über eine Index-Zahl identifiziert werden
+ * [] : Das Listen-Literal, [Aufzï¿½hlung von Elementen]
+ * eine Liste enthï¿½lt eine beliebige Anzahl von Elementen, die ï¿½ber eine Index-Zahl identifiziert werden
  */
 
 def list = ["A", "B", "A", "C"]
 
 /*
- * [] : Das Map-Literal [Aufzählung von Key: Value-Paaren]
- * eine Map enthält eine beliebige Anzahl von Elementen, die über den Key identifiziert werden
+ * [] : Das Map-Literal [Aufzï¿½hlung von Key: Value-Paaren]
+ * eine Map enthÃ¤lt eine beliebige Anzahl von Elementen, die Ã¼ber den Key identifiziert werden
  */
 
-def states = ["München": "Bayern", "Stuttgart": "BW", "Augsburg": "Bayern"]
-def reverseStates = ["Bayern": ["München", "Augsburg", "Nürnberg"]]
+def states = ["Mï¿½nchen": "Bayern", "Stuttgart": "BW", "Augsburg": "Bayern"]
+def reverseStates = ["Bayern": ["MÃ¼nchen", "Augsburg", "NÃ¼rnberg"]]
 
 println list[0] //-> "A"
 println list[3] //-> "C"
 
 
-println states["München"] //-> Bayern
+println states["MÃ¼nchen"] //-> Bayern
 println reverseStates["Bayern"][1]
 
 //Jetzt als Zweizeiler
