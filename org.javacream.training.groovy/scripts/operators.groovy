@@ -10,7 +10,7 @@ def n3 = n1 + n2
 
 def n4 = n1/n2 //Vorsicht:n4 ist eine Komma-Zahl
 
-// Vergleichsoperatoren identität: ==, größer > größer gleich >= kleiner <, kleiner gleich <=, ungleich !=
+// Vergleichsoperatoren identitÃ¤t: ==, grÃ¶ÃŸer > grÃ¶ÃŸer gleich >= kleiner <, kleiner gleich <=, ungleich !=
 
 def result = (n1 < n2) //result ist vom Typ her Boolean
 

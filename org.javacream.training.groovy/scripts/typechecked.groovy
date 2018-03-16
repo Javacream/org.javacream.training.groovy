@@ -7,8 +7,8 @@ def app(){
 
 	printList(list)
 	printList(numbers)
-//	printList("Hugo")
-//	printList(42)
+//	printList("Hugo") //Compiler error
+//	printList(42)	  //Compiler error
 }
 
 def printList(List listToPrint){

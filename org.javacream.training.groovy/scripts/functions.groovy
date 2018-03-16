@@ -12,8 +12,8 @@ def application(){
 	println (resultFromDemo)
 }
 /**
- * diese funktion bestimmt, ob die übergebene Zahle gerade oder ungerade ist
- * @param numberToCheck die zu prüfende Zahel
+ * diese funktion bestimmt, ob die Ã¼bergebene Zahle gerade oder ungerade ist
+ * @param numberToCheck die zu prÃ¼fende Zahel
  * @return das ergebnis, true falls gerade, false falls ungerade
  */
 def checkNumberIsEvenOrOdd(def numberToCheck){

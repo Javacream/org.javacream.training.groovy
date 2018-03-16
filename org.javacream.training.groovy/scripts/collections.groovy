@@ -6,11 +6,11 @@
 def list = ["A", "B", "A", "C"]
 
 /*
- * [] : Das Map-Literal [Aufz�hlung von Key: Value-Paaren]
+ * [] : Das Map-Literal [Aufzählung von Key: Value-Paaren]
  * eine Map enthält eine beliebige Anzahl von Elementen, die über den Key identifiziert werden
  */
 
-def states = ["M�nchen": "Bayern", "Stuttgart": "BW", "Augsburg": "Bayern"]
+def states = ["München": "Bayern", "Stuttgart": "BW", "Augsburg": "Bayern"]
 def reverseStates = ["Bayern": ["München", "Augsburg", "Nürnberg"]]
 
 println list[0] //-> "A"
