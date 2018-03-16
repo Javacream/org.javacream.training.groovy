@@ -1,7 +1,8 @@
-import java.sql.Statement;
-import javax.sql.DataSource;
-import org.hsqldb.jdbc.JDBCDataSource;
 import groovy.sql.Sql
+
+import javax.sql.DataSource
+
+import org.hsqldb.jdbc.JDBCDataSource
 
 try{
 	DataSource dataSource
@@ -14,5 +15,6 @@ try{
 	sql.eachRow("select message from messages", {message -> println(message)}) 
 }
 catch(def e){
-	e.printStackTrace()
+	//e.printStackTrace()
+	println "geht nicht"
 }
