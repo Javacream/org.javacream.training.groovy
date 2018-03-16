@@ -36,3 +36,18 @@ println list[3]
 
 reverseStates["Bayern"][3]="Neu-Ulm"
 println reverseStates
+
+
+//Iteration
+for (def i= 0; i < list.size; i++){
+	println("Element ${i + 1}: ${list[i]}")
+}
+
+
+//Ranges
+
+def range = 1..4
+for (def i= 0; i < range.size(); i++){
+	println("Element ${i + 1}: ${range[i]}")
+}
+
