@@ -10,12 +10,12 @@ for (def element in states){
 }
 println ("#################")
 
-for (String key in states.keySet()){
-	print key
+for (String hugo in states.keySet()){
+	print hugo
 	print "::"
-	def value = states.get(key)
-	print value
-	println "${key} :: ${states.get(key)}"
+	def valueForKey = states.get(hugo)
+	print valueForKey
+	println "${hugo} :: ${states.get(hugo)}"
 }
 println ("#################")
 
