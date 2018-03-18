@@ -1,0 +1,3 @@
+<database user=SA password= url=jdbc:hsqldb:.>
+</database><database user=SA password= url=jdbc:hsqldb:.>
+</database>

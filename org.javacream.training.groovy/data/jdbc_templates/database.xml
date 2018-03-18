@@ -1,0 +1,2 @@
+<database user=$user password=$pwd url=$url>
+</database>
