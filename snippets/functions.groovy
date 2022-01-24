@@ -11,7 +11,12 @@ def printMessage(def name, def message){
     println("Message: ${message} from ${name}")
     return "OK"
 }
-
+/*
+def printMessage(def p1, def p2){
+    println("Message: ${message} from ${name}")
+    return "OK"
+}
+*/
 def greeting = "Hello"
 printMessage(greeting)
 
