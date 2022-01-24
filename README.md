@@ -9,7 +9,7 @@
   * ~~9:00 - 16:15~~
     * Montag 12:15 - 17:00
       * Kaffeepausen 14:00 - 14:15 und 15:00 - 15:15
-      * Mittagspause 12:15 - 13:00
+      * heute keine Mittagspause!
     * Dienstag 8:15 - 17:00
       * Kaffeepausen 10:30 - 10:45 und 15:00 - 15:15
       * Mittagspause 12:15 - 13:00
