@@ -1,27 +1,34 @@
-//Strukturierte Anwendungen
+//Aus Feature 2: Funktionale Programmierung
 
-//def <function_name> (Komma-separierte Liste von Parametern){...}
-def printMessage(def message){
-    println("Message: ${message}")
+//name: ein Variablenname, "Hugo" ist ein Wert definiert über das Zeichenketten-Literal "..."
+def name = "Hugo"
+def number = 42
+def state = true
+
+//printMessageFunction ist ein Variablenname, { -> } ist das Funktions-Literal
+def printMessageFunction = {message -> println("Message: ${message}")
     return "OK"
 }
 
-//Überladene Funktionen werden bei gleichem Namen an Hand der Parameterliste unterschieden
-def printMessage(def name, def message){
-    println("Message: ${message} from ${name}")
-    return "OK"
-}
-/*
-def printMessage(def p1, def p2){
-    println("Message: ${message} from ${name}")
-    return "OK"
-}
-*/
-def greeting = "Hello"
-printMessage(greeting)
+printMessageFunction("Hello")
 
-def result = printMessage("World")
+def v2 = name
+println(v2)
+
+def result = printMessageFunction("Hello")
 println(result)
 
-result = printMessage("Sawitzki", "World")
-println(result)
+def y = printMessageFunction //VORSICHT: Hier mit voller Absicht keine runden Klammern!
+y("Fritz")
+
+def functionWithStringParameter(def s){
+    println(s)
+}
+
+def functionWithFunctionParameter(def f){
+    f("Emil")
+}
+
+functionWithStringParameter("Hugo")
+functionWithFunctionParameter(y)
+
