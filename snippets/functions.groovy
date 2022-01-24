@@ -1,8 +1,10 @@
 //Strukturierte Anwendungen
 
-def printHelloWorld(){
-    def message = "Hello"
-    println(message)
+def printMessage(def message){
+    println("Message: ${message}")
 }
 
-printHelloWorld()
+def greeting = "Hello"
+printMessage(greeting)
+
+printMessage("World")
