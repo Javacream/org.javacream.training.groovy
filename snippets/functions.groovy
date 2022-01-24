@@ -1,10 +1,22 @@
 //Strukturierte Anwendungen
 
+//def <function_name> (Komma-separierte Liste von Parametern){...}
 def printMessage(def message){
     println("Message: ${message}")
+    return "OK"
+}
+
+//Überladene Funktionen werden bei gleichem Namen an Hand der Parameterliste unterschieden
+def printMessage(def name, def message){
+    println("Message: ${message} from ${name}")
+    return "OK"
 }
 
 def greeting = "Hello"
 printMessage(greeting)
 
-printMessage("World")
+def result = printMessage("World")
+println(result)
+
+result = printMessage("Sawitzki", "World")
+println(result)
