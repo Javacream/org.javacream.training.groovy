@@ -1,3 +1,5 @@
+package org.javacream.demo
+
 class DateDemo{
     def static main(args) {
      def actualDate = new Date()

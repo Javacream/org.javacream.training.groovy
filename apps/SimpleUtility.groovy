@@ -1,3 +1,5 @@
+package org.javacream.util
+
 class SimpleUtility{
     def static main(String[] args){
         println(checkSubstringInString("Sawitzki", "wi"))
@@ -30,3 +32,4 @@ class SimpleUtility{
        return list.stream().filter(e -> e == element).collect().size(); 
     }
 }
+

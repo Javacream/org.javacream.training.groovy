@@ -1,4 +1,4 @@
-//JasperReports schlägt vor, Hilfsfunktionen als static zu definieren
+package org.javacream.demo
 
 class HelloWorld{
     def sayHello(){

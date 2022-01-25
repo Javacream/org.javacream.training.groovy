@@ -1,3 +1,5 @@
+package org.javacream.demo
+
 class SimpleApplication{
     def static main(String[] args){
         println ("Hello from SimpleApplication")

@@ -1,3 +1,5 @@
+package org.javacream.demo
+
 class CollectionsDemo{
     def static listDemo(){
         def names = ["Emil", "Hugo", "Fritz"]
