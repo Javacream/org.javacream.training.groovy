@@ -18,6 +18,10 @@ class SimpleUtility{
 
     }
 
+    def static status(){
+        return "OK"
+    }
+
     def static checkSubstringInString(def string, def substring){
        return string.indexOf(substring) >= 0; 
     }
